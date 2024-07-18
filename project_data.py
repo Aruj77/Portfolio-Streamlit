@@ -21,7 +21,7 @@ image_names_projects = [
     "poRt",
     "urine",
     "course",
-    "Fraud",
+    "fraud",
     "stock",
     "pixel",
     "chatgpt",
