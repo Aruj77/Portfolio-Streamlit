@@ -1,0 +1,5 @@
+Pillow
+streamlit
+streamlit-option-menu
+requests
+beautifulsoup4
