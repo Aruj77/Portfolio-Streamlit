@@ -205,7 +205,8 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('bg.png')   
+
+# add_bg_from_local('bg.png')   
 
 
 # Sidebar: If using streamlit_option_menu
@@ -226,7 +227,7 @@ with st.sidebar:
                          menu_icon="mortarboard", 
                          default_index=0,
                          styles={
-        "container": {"padding": "0!important", "background-color": "#f5f5dc"},
+        "container": {"padding": "0!important", "color": "#f5f5dc"},
         "icon": {"color": "darkorange", "font-size": "20px"}, 
         "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
         "nav-link-selected": {"background-color": "#cfcfb4"},
