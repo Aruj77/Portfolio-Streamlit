@@ -252,14 +252,14 @@ with st.sidebar:
         default_index=0,
         styles={
             "container": {"padding": "0!important", "color": "#f5f5dc"},
-            "icon": {"color": "darkorange", "font-size": "20px"},
+            "icon": {"color": "white", "font-size": "20px"},
             "nav-link": {
                 "font-size": "17px",
                 "text-align": "left",
                 "margin": "0px",
-                "--hover-color": "#eee",
+                "--hover-color": "303030",
             },
-            "nav-link-selected": {"background-color": "#cfcfb4", "color": "#0E1117"},
+            "nav-link-selected": {"background-color": "#303030"},
         },
     )
     leetcode_url = "https://leetcode.com/u/aruj77/"
