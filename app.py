@@ -206,7 +206,7 @@ def add_bg_from_local(image_file):
     unsafe_allow_html=True
     )
 
-# add_bg_from_local('bg.png')   
+# add_bg_from_local('bg.png')
 
 
 # Sidebar: If using streamlit_option_menu
@@ -221,17 +221,46 @@ with st.sidebar:
             st.empty()
 
     choose = option_menu(
-                        "Aruj Bansal", 
-                        ["About Me", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Resume", "Contact"],
-                         icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'paperclip', 'envelope'],
-                         menu_icon="mortarboard", 
-                         default_index=0,
-                         styles={
-        "container": {"padding": "0!important", "color": "#f5f5dc"},
-        "icon": {"color": "darkorange", "font-size": "20px"}, 
-        "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-        "nav-link-selected": {"background-color": "#cfcfb4"},
-    }
+        "Aruj Bansal",
+        [
+            "About Me",
+            "Site Overview",
+            "Experience",
+            "Technical Skills",
+            "Education",
+            "Projects",
+            "Competitions",
+            "Volunteering",
+            "Blog",
+            "Resume",
+            "Contact",
+        ],
+        icons=[
+            "person fill",
+            "globe",
+            "clock history",
+            "tools",
+            "book half",
+            "clipboard",
+            "trophy fill",
+            "heart",
+            "pencil square",
+            "paperclip",
+            "envelope",
+        ],
+        menu_icon="mortarboard",
+        default_index=0,
+        styles={
+            "container": {"padding": "0!important", "color": "#f5f5dc"},
+            "icon": {"color": "darkorange", "font-size": "20px"},
+            "nav-link": {
+                "font-size": "17px",
+                "text-align": "left",
+                "margin": "0px",
+                "--hover-color": "#eee",
+            },
+            "nav-link-selected": {"background-color": "#cfcfb4", "color": "#0E1117"},
+        },
     )
     leetcode_url = "https://leetcode.com/u/aruj77/"
     linkedin_url = "https://www.linkedin.com/in/aruj-bansal/"
